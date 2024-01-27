@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1706255902 "/Users/lfy/Documents/UofT/year 1/mat185/assignments/assignment 1/mat185-assignment-1/MAT185 Assignment 1t.tex" "MAT185 Assignment 1t.pdf" "MAT185 Assignment 1t" 1706255904 0
-  "/Users/lfy/Documents/UofT/year 1/mat185/assignments/assignment 1/mat185-assignment-1/MAT185 Assignment 1t.tex" 1706255901 8969 5ffa45350038fb5236e9968327d53ba5 ""
+["pdflatex"] 1706327381 "/Users/lfy/Documents/UofT/year 1/mat185/assignments/assignment 1/mat185-assignment-1/MAT185 Assignment 1t.tex" "MAT185 Assignment 1t.pdf" "MAT185 Assignment 1t" 1706327383 0
+  "/Users/lfy/Documents/UofT/year 1/mat185/assignments/assignment 1/mat185-assignment-1/MAT185 Assignment 1t.tex" 1706327380 11246 a74c02f2164dedef28fe09fdb465955e ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1136768653 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
@@ -30,6 +30,7 @@
   "/usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1248133631 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "/usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb" 1248133631 32716 08e384dc442464e7285e891af9f45947 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb" 1248133631 37944 359e864bd06cde3b1cf57bb20757fb06 ""
+  "/usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb" 1248133631 31764 459c573c03a4949a528c2cc7f557e217 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb" 1248133631 34694 ad62b13721ee8eda1dcc8993c8bd7041 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb" 1215737283 138258 6525c253f16cededa14c7fd0da7f67b2 ""
   "/usr/local/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1461363279 71627 94eb9990bed73c364d7f53f960cc8c5b ""
@@ -163,9 +164,9 @@
   "/usr/local/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1698001021 7883458 555b960d646fd02bfea1871a1e9dcd26 ""
   "/usr/local/texlive/2023/texmf.cnf" 1678822455 577 1b2b1af17af2508fb20dd85783af4050 ""
   "185A1Chat.pdf" 1706036970 187302 172369a8cf6c1163e74d343db1e49361 ""
-  "MAT185 Assignment 1t.aux" 1706255904 589 2a9ba7ba2621fa6a1d3ca199ce1b7e6a "pdflatex"
-  "MAT185 Assignment 1t.out" 1706255903 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "MAT185 Assignment 1t.tex" 1706255901 8969 5ffa45350038fb5236e9968327d53ba5 ""
+  "MAT185 Assignment 1t.aux" 1706327382 589 2a9ba7ba2621fa6a1d3ca199ce1b7e6a "pdflatex"
+  "MAT185 Assignment 1t.out" 1706327382 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "MAT185 Assignment 1t.tex" 1706327380 11246 a74c02f2164dedef28fe09fdb465955e ""
   (generated)
   "MAT185 Assignment 1t.aux"
   "MAT185 Assignment 1t.log"

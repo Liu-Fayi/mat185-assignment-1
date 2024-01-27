@@ -220,20 +220,26 @@ $$c(a_0+a_1x+a_2x^2) = a_0^c+(ca_1+4(c-1))x+ca_2x^2$$
 	\makenonemptybox{550pt}{
 	
 	%%% Your work goes here! 
-		MIII a: $$(c + d)(a_0 + a_1x + a_2x^2) = a_0^{c + d} + ((c + d)a_1 + 4(c + d - 1))x + (c + d)a_2x^2$$
-		$$= a_0^c a_0^d + (ca_1 + da_1 + 4c + 4d - 4)x + (ca_2 + da_2)x^2$$
-		$$= a_0^c a_0^d + (ca_1 + 4c - 4 + da_1 + 4d - 4 + 4)x + (ca_2 + da_2)x^2$$
-		$$= a_0^c a_0^d + (ca_1 + 4(c - 1) + da_1 + 4(d - 1) + 4)x + (ca_2 + da_2)x^2$$
-		$$= (a_0^c + (ca_1 + 4(c - 1))x + ca_2x^2) + (a_0^d + (da_1 + 4(d - 1))x + da_2x^2)$$
-		$$= c(a_0 + a_1x + a_2x^2) + d(a_0 + a_1x + a_2x^2)$$
+		MIII a: 	
+		\begin{align*}
+		(c + d)(a_0 + a_1x + a_2x^2) =& a_0^{c + d} + ((c + d)a_1 + 4(c + d - 1))x + (c + d)a_2x^2\\
+		=& a_0^c a_0^d + (ca_1 + da_1 + 4c + 4d - 4)x + (ca_2 + da_2)x^2\\
+		=& a_0^c a_0^d + (ca_1 + 4c - 4 + da_1 + 4d - 4 + 4)x + (ca_2 + da_2)x^2\\
+		=& a_0^c a_0^d + (ca_1 + 4(c - 1) + da_1 + 4(d - 1) + 4)x + (ca_2 + da_2)x^2\\
+		=& (a_0^c + (ca_1 + 4(c - 1))x + ca_2x^2) + (a_0^d + (da_1 + 4(d - 1))x + da_2x^2)\\
+		=& c(a_0 + a_1x + a_2x^2) + d(a_0 + a_1x + a_2x^2)\\
+		\end{align*}
 
-		MIII b: $$c((a_0+a_1x+a2x^2)+(b_0+b_1x+b_2x^2)) = c((a_0b_0)+(a_1+b_1+4)x+(a_2+b_2)x^2)$$
-		$$= (a_0b_0)^c+(c(a_1+b_1+4)+4(c-1))x+c(a_2+b_2)x^2$$
-		$$= (a_0^c b_0^c) + (ca_1 + cb_1 + 4c + 4c - 4)x + (ca_2 +cb_2)x^2$$
-		$$= (a_0^c b_0^c) + (ca_1 + 4c - 4 + cb_1 + 4c - 4 + 4)x + (ca_2 +cb_2)x^2$$
-		$$= (a_0^c b_0^c) + (ca_1 + 4(c - 1) + cb_1 + 4(c - 1) + 4)x + (ca_2 +cb_2)x^2$$
-		$$= (a_0^c + (ca_1 + 4(c - 1))x + ca_2x^2) + (b_0^c + (cb_1 + 4(c - 1))x + cb_2x^2)$$
-		$$= c(a_0+a_1x+a_2x^2) + c(b_0+b_1x+b_2x^2)$$
+		MIII b:
+		\begin{align*}
+		c((a_0+a_1x+a2x^2)+(b_0+b_1x+b_2x^2)) =& c((a_0b_0)+(a_1+b_1+4)x+(a_2+b_2)x^2)\\
+		=& (a_0b_0)^c+(c(a_1+b_1+4)+4(c-1))x+c(a_2+b_2)x^2\\
+		=& (a_0^c b_0^c) + (ca_1 + cb_1 + 4c + 4c - 4)x + (ca_2 +cb_2)x^2\\
+		=& (a_0^c b_0^c) + (ca_1 + 4c - 4 + cb_1 + 4c - 4 + 4)x + (ca_2 +cb_2)x^2\\
+		=& (a_0^c b_0^c) + (ca_1 + 4(c - 1) + cb_1 + 4(c - 1) + 4)x + (ca_2 +cb_2)x^2\\
+		=& (a_0^c + (ca_1 + 4(c - 1))x + ca_2x^2) + (b_0^c + (cb_1 + 4(c - 1))x + cb_2x^2)\\
+		=& c(a_0+a_1x+a_2x^2) + c(b_0+b_1x+b_2x^2)\\
+		\end{align*}
 	}
 }   
 
@@ -264,6 +270,8 @@ $$c(a_0+a_1x+a_2x^2) = a_0^c+(ca_1+4(c-1))x+ca_2x^2$$
 	\makenonemptybox{275pt}{ 
 	
 	%%% Your work goes here! 
+	% mistake 1: chatgpt assumed that V is a subset of a vector space, but did not state why
+	% mistake 2: chatgpt got the zero vector wrong
 
 	}
 }
@@ -278,7 +286,7 @@ $$c(a_0+a_1x+a_2x^2) = a_0^c+(ca_1+4(c-1))x+ca_2x^2$$
 
 \noin{\bf 4.}  Let $c\in \mathbb R$, and consider the subset $W_c=\{\, (x, y, z) \in \mathbb R^3 \, \mid  \, x+y+z=c \left | z \right | \, \}$ of $\mathbb R^3$.  Determine {\it all} values of $c$ such that $W$ is a subspace of $\mathbb R^3$.  Your answer should clearly demonstrate that you've found {\it all} values of $c$ such that $W_c$ is a subspace.  This includes  demonstrating  why $W_c$ is not a subspace for certain values of $c$, if you think no such $c$ exists.
 
-%Question 3
+%Question 4
 
 {
 	\vspace*{-10pt}
@@ -287,10 +295,54 @@ $$c(a_0+a_1x+a_2x^2) = a_0^c+(ca_1+4(c-1))x+ca_2x^2$$
 	\makenonemptybox{550pt}{
 	
 	%%% Your work goes here! 
+	
+	Since $W_c$ is a subset of $\mathbb R^3$ and $\mathbb R^3$ is a vector space, 
+	$W_c$ is a subspace of $\mathbb R^3$ if $W_c$ satisfies the conditions of the 
+	subspace test ($W_c$ is non-empty and contains the zero vector, $W_c$ is closed 
+	under vector addition and scalar multiplication). 
 
-	% mistake 1: chatgpt assumed that V is a subset of a vector space, but did not state why
-	% mistake 2: chatgpt got the zero vector wrong
-
+	The zero vector: 
+	\begin{align*}
+		&\forall c \in \mathbb R, 0 + 0 + 0 = c|0| = 0\\
+		&\forall x \in W_c, x + 0 = (x_1, x_2, x_3) + (0,0,0) = (x_1 + x_2 + x_3) = x\\
+		&\therefore (0, 0, 0) \in W_c
+	\end{align*}
+	Therefore $W_c$ is non-empty and contains the zero vector for all $c$.
+	\newline
+	\newline
+	Inverse: Since the inverse of a vector $-v = (-1)v$, the inverse of a vector 
+	should also exist in a vector space due to closure of scalar multiplication.
+	\begin{align*}
+		&\forall x = (x_1, x_2, x_3) \in W_c, \exists -x = (-x_1, -x_2, -x_3) \in W_c \mid x + (-x) = 0\\
+		&(x_1 + (-x_1), x_2 + (-x_2), x_3 + (-x_3)) = 0\\
+		&\because x \in W_c, x_1 + x_2 + x_3 = c|x_3|\\
+		&\because -x \in W_c, -x_1 + -x_2 + -x_3 = c|-x_3| = c|x_3|\\
+		&\therefore x_1 + x_2 + x_3 = -x_1 + -x_2 + -x_3\\
+		&x_1 + x_2 + x_3 = -(x_1 + x_2 + x_3)\\
+		&\therefore x_1 + x_2 + x_3 = 0\\
+		&\therefore c|x_3| = 0\\
+		&\because \forall x_3 \in \mathbb R\\
+		&\therefore c = 0
+	\end{align*}
+	Therefore only $c = 0$ satisfies the inverse condition. If $c \neq 0$, then $x_1 + x_2 + x_3 \neq -x_1 + -x_2 + -x_3$.
+	\newline
+	\newline
+	Since only $c = 0$ satisfies the inverse condition, only $W_0$ will be checked for
+	closure under vector addition and scalar multiplication.
+	\begin{align*}
+		&\forall x = (x_1, x_2, x_3), y = (y_1, y_2, y_3) \in W_0, \forall c \in \mathbb R\\
+		&cx + y = (cx_1 + y_1, cx_2 + y_2, cx_3 + y_3)\\
+		&(cx_1 + y_1) + (cx_2 + y_2) + (cx_3 + y_3) = cx_1 + cx_2 + cx_3 + y_1 + y_2 + y_3\\
+		&= c(x_1 + x_2 + x_3) + (y_1 + y_2 + y_3)\\
+		&\because x \in W_0, x_1 + x_2 + x_3 = 0\\
+		&\because y \in W_0, y_1 + y_2 + y_3 = 0\\
+		&\therefore (cx_1 + y_1) + (cx_2 + y_2) + (cx_3 + y_3) = c(0) + (0) = 0\\
+		&\therefore cx + y \in W_0\\
+	\end{align*}
+	Therefore $W_0$ is closed under vector addition and scalar multiplication.
+	\newline
+	\newline
+	Therefore $W_c$ is a subspace of $\mathbb R^3$ if and only if $c = 0$.
 	}
 }
 
