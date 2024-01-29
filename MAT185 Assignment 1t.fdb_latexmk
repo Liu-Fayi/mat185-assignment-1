@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1706503177 "/Users/lfy/Documents/UofT/year 1/mat185/assignments/assignment 1/mat185-assignment-1/MAT185 Assignment 1t.tex" "MAT185 Assignment 1t.pdf" "MAT185 Assignment 1t" 1706503179 0
-  "/Users/lfy/Documents/UofT/year 1/mat185/assignments/assignment 1/mat185-assignment-1/MAT185 Assignment 1t.tex" 1706503177 14534 d14e1d298089cfeccb468f341aba868b ""
+["pdflatex"] 1706503239 "/Users/lfy/Documents/UofT/year 1/mat185/assignments/assignment 1/mat185-assignment-1/MAT185 Assignment 1t.tex" "MAT185 Assignment 1t.pdf" "MAT185 Assignment 1t" 1706503241 0
+  "/Users/lfy/Documents/UofT/year 1/mat185/assignments/assignment 1/mat185-assignment-1/MAT185 Assignment 1t.tex" 1706503239 14548 6e81463f9704c7da54393010a20cf5b3 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1136768653 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
@@ -164,9 +164,9 @@
   "/usr/local/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1698001021 7883458 555b960d646fd02bfea1871a1e9dcd26 ""
   "/usr/local/texlive/2023/texmf.cnf" 1678822455 577 1b2b1af17af2508fb20dd85783af4050 ""
   "185A1Chat.pdf" 1706036970 187302 172369a8cf6c1163e74d343db1e49361 ""
-  "MAT185 Assignment 1t.aux" 1706503179 589 2a9ba7ba2621fa6a1d3ca199ce1b7e6a "pdflatex"
-  "MAT185 Assignment 1t.out" 1706503179 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "MAT185 Assignment 1t.tex" 1706503177 14534 d14e1d298089cfeccb468f341aba868b ""
+  "MAT185 Assignment 1t.aux" 1706503241 589 2a9ba7ba2621fa6a1d3ca199ce1b7e6a "pdflatex"
+  "MAT185 Assignment 1t.out" 1706503241 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "MAT185 Assignment 1t.tex" 1706503239 14548 6e81463f9704c7da54393010a20cf5b3 ""
   (generated)
   "MAT185 Assignment 1t.aux"
   "MAT185 Assignment 1t.log"
